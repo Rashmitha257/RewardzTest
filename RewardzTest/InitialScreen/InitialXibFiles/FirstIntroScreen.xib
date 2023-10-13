@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FirstIntroScreen" customModule="RewardzTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="InitialScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="Tcf-VC-xcB">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="426"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kGt-0E-Ocy">
+                    <rect key="frame" x="10" y="456" width="373" height="62.666666666666629"/>
+                    <string key="text">Get The Freshest Fruit Salad Combo
+We deliver the best and freshest fruit salad in town. Order for a combo today!!!</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <color key="shadowColor" systemColor="opaqueSeparatorColor"/>
+                    <size key="shadowOffset" width="0.0" height="3"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYU-1A-VtC">
+                    <rect key="frame" x="78.666666666666671" y="728" width="235.66666666666663" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.64313725490196072" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="OTL-BD-qN8"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Let's continue">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="kGt-0E-Ocy" secondAttribute="trailing" constant="10" id="22o-Lk-YVa"/>
+                <constraint firstItem="Tcf-VC-xcB" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="4Br-zQ-uFi"/>
+                <constraint firstItem="Tcf-VC-xcB" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="71l-Pe-V6y"/>
+                <constraint firstItem="KYU-1A-VtC" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.6" id="7nm-mH-e8r"/>
+                <constraint firstItem="Tcf-VC-xcB" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="L5b-hP-Kjp"/>
+                <constraint firstItem="Tcf-VC-xcB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Tdm-tm-pFM"/>
+                <constraint firstItem="KYU-1A-VtC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="act-y0-Cog"/>
+                <constraint firstItem="kGt-0E-Ocy" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="eCw-V4-T3m"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="KYU-1A-VtC" secondAttribute="bottom" constant="40" id="pr5-Oa-3JK"/>
+                <constraint firstItem="kGt-0E-Ocy" firstAttribute="top" secondItem="Tcf-VC-xcB" secondAttribute="bottom" constant="30" id="tV0-1F-OTX"/>
+            </constraints>
+            <connections>
+                <outlet property="letsContinueButton" destination="KYU-1A-VtC" id="Ddf-bL-LeL"/>
+            </connections>
+            <point key="canvasLocation" x="71" y="-12"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="InitialScreenImage" width="125" height="156.33332824707031"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
