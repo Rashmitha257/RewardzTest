@@ -112,6 +112,9 @@
 		EB4501282AD8E93A000722B0 /* HomeScreens */ = {
 			isa = PBXGroup;
 			children = (
+				EBF50D8D2AD8ED6F003C8B04 /* CollectionCellXib */,
+				EBF50D8C2AD8ECBF003C8B04 /* OtherComboXib */,
+				EBF50D8B2AD8ECA8003C8B04 /* RecommendedXibFiles */,
 				EB4501292AD8EA74000722B0 /* HomeSceenXibFiles */,
 				EBA040552AD86ADF00ED7312 /* HomeScreenViewModel.swift */,
 				EBA0404B2AD8340400ED7312 /* HomeScreenViewController.swift */,
@@ -154,19 +157,40 @@
 				EB80D0DD2AD6BB8400C2C8C7 /* Assets.xcassets */,
 				EB80D0DF2AD6BB8400C2C8C7 /* LaunchScreen.storyboard */,
 				EB80D0E22AD6BB8400C2C8C7 /* Info.plist */,
-				EBA0403F2AD82A6000ED7312 /* RecommendedViewUI.xib */,
-				EBA040412AD82A8700ED7312 /* RecommendedViewUI.swift */,
-				EBA040432AD82C3200ED7312 /* OtherCombos.xib */,
 				EBA040512AD8639F00ED7312 /* FoodData.json */,
-				EBA040452AD82C5200ED7312 /* OtherCombos.swift */,
-				EBA040472AD82FEE00ED7312 /* ImageDetailsCollectionViewCell.xib */,
-				EBA040492AD8302100ED7312 /* ImageDetailsCollectionViewCell.swift */,
 				EBA0404D2AD8595B00ED7312 /* UIView+Extension.swift */,
 				EBA0404F2AD8621800ED7312 /* MenuDetails.swift */,
 				EBA040532AD8659500ED7312 /* Constant.swift */,
 				EBA040572AD86BA000ED7312 /* NetworkManager.swift */,
 			);
 			path = RewardzTest;
+			sourceTree = "<group>";
+		};
+		EBF50D8B2AD8ECA8003C8B04 /* RecommendedXibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EBA040412AD82A8700ED7312 /* RecommendedViewUI.swift */,
+				EBA0403F2AD82A6000ED7312 /* RecommendedViewUI.xib */,
+			);
+			path = RecommendedXibFiles;
+			sourceTree = "<group>";
+		};
+		EBF50D8C2AD8ECBF003C8B04 /* OtherComboXib */ = {
+			isa = PBXGroup;
+			children = (
+				EBA040432AD82C3200ED7312 /* OtherCombos.xib */,
+				EBA040452AD82C5200ED7312 /* OtherCombos.swift */,
+			);
+			path = OtherComboXib;
+			sourceTree = "<group>";
+		};
+		EBF50D8D2AD8ED6F003C8B04 /* CollectionCellXib */ = {
+			isa = PBXGroup;
+			children = (
+				EBA040492AD8302100ED7312 /* ImageDetailsCollectionViewCell.swift */,
+				EBA040472AD82FEE00ED7312 /* ImageDetailsCollectionViewCell.xib */,
+			);
+			path = CollectionCellXib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

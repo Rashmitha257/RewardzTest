@@ -72,7 +72,7 @@ class AuthenticationViewController: UIViewController, UITextFieldDelegate {
         let keyboardHeight = keyboardSize.height
         if keyboardWillShow {
             let safeAreaExists = (self.view?.window?.safeAreaInsets.bottom != 0)
-            var constant = keyboardHeight + (safeAreaExists ? 0 : 20)
+            let constant = keyboardHeight + (safeAreaExists ? 0 : 20)
             mainView.frame.origin.y = self.view.frame.origin.y - constant
         }else {
             mainView.frame.origin.y = self.view.frame.origin.y
