@@ -39,13 +39,9 @@ class AuthenticationViewController: UIViewController, UITextFieldDelegate {
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    func textFieldDidEndEditing(_ textField: UITextField) {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         mainView.nameField.resignFirstResponder()
-    }
-    
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        mainView.nameField.becomeFirstResponder()
-    }
+       }
     
     //MARK: - Other func
     /// setting keyborad notifications
