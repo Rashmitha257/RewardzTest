@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AuthenticationScreen" customModule="RewardzTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AuthenticationScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="4TP-Fh-acu">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="426"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your firstname?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QUC-ok-fzq">
+                    <rect key="frame" x="10" y="466" width="373" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FMS-vi-DtR">
+                    <rect key="frame" x="10" y="506.33333333333326" width="373" height="60"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NIO-9V-LUm">
+                            <rect key="frame" x="0.0" y="0.0" width="373" height="60"/>
+                            <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="NIO-9V-LUm" firstAttribute="leading" secondItem="FMS-vi-DtR" secondAttribute="leading" id="4Ou-i7-ZBc"/>
+                        <constraint firstAttribute="bottom" secondItem="NIO-9V-LUm" secondAttribute="bottom" id="PQh-fb-CiL"/>
+                        <constraint firstAttribute="trailing" secondItem="NIO-9V-LUm" secondAttribute="trailing" id="emu-pI-cdN"/>
+                        <constraint firstItem="NIO-9V-LUm" firstAttribute="top" secondItem="FMS-vi-DtR" secondAttribute="top" id="mnP-Ad-PuJ"/>
+                        <constraint firstAttribute="height" constant="60" id="tNr-2P-Vlc"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hu-aZ-5he">
+                    <rect key="frame" x="59" y="738" width="275" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.64313725490196072" blue="0.31764705882352939" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="y69-Zs-bff"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Start Ordering">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="5Hu-aZ-5he" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.7" id="7mo-4Q-7cM"/>
+                <constraint firstItem="4TP-Fh-acu" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.5" id="9og-sI-qJe"/>
+                <constraint firstItem="QUC-ok-fzq" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="C0b-uX-3aJ"/>
+                <constraint firstItem="4TP-Fh-acu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Cfd-CL-F0G"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5Hu-aZ-5he" secondAttribute="bottom" constant="30" id="EnR-cm-tUf"/>
+                <constraint firstItem="QUC-ok-fzq" firstAttribute="top" secondItem="4TP-Fh-acu" secondAttribute="bottom" constant="40" id="FFZ-GO-QkU"/>
+                <constraint firstItem="5Hu-aZ-5he" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="FMq-dq-psq"/>
+                <constraint firstItem="4TP-Fh-acu" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="OZV-X2-8sD"/>
+                <constraint firstItem="4TP-Fh-acu" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Yaf-K5-Ncc"/>
+                <constraint firstItem="5Hu-aZ-5he" firstAttribute="top" relation="greaterThanOrEqual" secondItem="FMS-vi-DtR" secondAttribute="bottom" constant="30" id="cVO-zI-2AM"/>
+                <constraint firstItem="FMS-vi-DtR" firstAttribute="top" secondItem="QUC-ok-fzq" secondAttribute="bottom" constant="20" id="cq9-ag-TPY"/>
+                <constraint firstItem="FMS-vi-DtR" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="cxx-EQ-J6T"/>
+                <constraint firstItem="FMS-vi-DtR" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="ghe-Zr-1DF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="FMS-vi-DtR" secondAttribute="trailing" constant="10" id="kqs-Cf-37M"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QUC-ok-fzq" secondAttribute="trailing" constant="10" id="ysi-0p-eBn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="nameField" destination="NIO-9V-LUm" id="0ja-Jr-z8V"/>
+                <outlet property="startOrderingButton" destination="5Hu-aZ-5he" id="pyD-T8-wsP"/>
+            </connections>
+            <point key="canvasLocation" x="54.198473282442748" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AuthenticationScreenImage" width="375" height="469"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

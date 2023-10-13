@@ -91,6 +91,43 @@
 			path = InitialXibFiles;
 			sourceTree = "<group>";
 		};
+		EB4501262AD8E781000722B0 /* AuthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EB4501272AD8E78F000722B0 /* AuthuXibFiles */,
+				EBA040352AD819CB00ED7312 /* AuthenticationViewController.swift */,
+			);
+			path = AuthScreen;
+			sourceTree = "<group>";
+		};
+		EB4501272AD8E78F000722B0 /* AuthuXibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EBA040372AD819F000ED7312 /* AuthenticationScreen.xib */,
+				EBA040392AD81A1100ED7312 /* AuthenticationScreen.swift */,
+			);
+			path = AuthuXibFiles;
+			sourceTree = "<group>";
+		};
+		EB4501282AD8E93A000722B0 /* HomeScreens */ = {
+			isa = PBXGroup;
+			children = (
+				EB4501292AD8EA74000722B0 /* HomeSceenXibFiles */,
+				EBA040552AD86ADF00ED7312 /* HomeScreenViewModel.swift */,
+				EBA0404B2AD8340400ED7312 /* HomeScreenViewController.swift */,
+			);
+			path = HomeScreens;
+			sourceTree = "<group>";
+		};
+		EB4501292AD8EA74000722B0 /* HomeSceenXibFiles */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0403B2AD81FD200ED7312 /* HomeScreen.xib */,
+				EBA0403D2AD8200100ED7312 /* HomeScreen.swift */,
+			);
+			path = HomeSceenXibFiles;
+			sourceTree = "<group>";
+		};
 		EB80D0C82AD6BB6C00C2C8C7 = {
 			isa = PBXGroup;
 			children = (
@@ -110,18 +147,13 @@
 		EB80D0D32AD6BB6E00C2C8C7 /* RewardzTest */ = {
 			isa = PBXGroup;
 			children = (
+				EB4501282AD8E93A000722B0 /* HomeScreens */,
+				EB4501262AD8E781000722B0 /* AuthScreen */,
 				EB4501242AD8E5E2000722B0 /* InitialScreen */,
 				EB80D0D42AD6BB6E00C2C8C7 /* AppDelegate.swift */,
-				EBA040352AD819CB00ED7312 /* AuthenticationViewController.swift */,
-				EBA0404B2AD8340400ED7312 /* HomeScreenViewController.swift */,
-				EBA040552AD86ADF00ED7312 /* HomeScreenViewModel.swift */,
 				EB80D0DD2AD6BB8400C2C8C7 /* Assets.xcassets */,
 				EB80D0DF2AD6BB8400C2C8C7 /* LaunchScreen.storyboard */,
 				EB80D0E22AD6BB8400C2C8C7 /* Info.plist */,
-				EBA040372AD819F000ED7312 /* AuthenticationScreen.xib */,
-				EBA040392AD81A1100ED7312 /* AuthenticationScreen.swift */,
-				EBA0403B2AD81FD200ED7312 /* HomeScreen.xib */,
-				EBA0403D2AD8200100ED7312 /* HomeScreen.swift */,
 				EBA0403F2AD82A6000ED7312 /* RecommendedViewUI.xib */,
 				EBA040412AD82A8700ED7312 /* RecommendedViewUI.swift */,
 				EBA040432AD82C3200ED7312 /* OtherCombos.xib */,
