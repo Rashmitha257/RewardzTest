@@ -1,0 +1,37 @@
+[
+    {
+    "foodname": "Honey lime combo",
+    "foodImage": "Honey-Lime",
+    "foodCost": "500"
+    },
+    {
+    "foodname": "Berry mango combo",
+    "foodImage": "breakFast",
+    "foodCost": "600"
+    },
+    {
+    "foodname": "Quinoa fruit salad",
+    "foodImage": "BestEver",
+    "foodCost": "1000"
+    },
+    {
+    "foodname": "Tropical fruit salad",
+    "foodImage": "Salad",
+    "foodCost": "100"
+    },
+    {
+    "foodname": "Liondate lime combo",
+    "foodImage": "BerryWorld",
+    "foodCost": "900"
+    },
+    {
+    "foodname": "StroBerry mango combo",
+    "foodImage": "breakFast",
+    "foodCost": "560"
+    },
+    {
+    "foodname": "Special Quinoa fruit salad",
+    "foodImage": "Honey-Lime",
+    "foodCost": "980"
+    },
+]

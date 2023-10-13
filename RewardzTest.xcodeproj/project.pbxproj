@@ -150,6 +150,10 @@
 		EB80D0D32AD6BB6E00C2C8C7 /* RewardzTest */ = {
 			isa = PBXGroup;
 			children = (
+				EBF50D912AD8EF0D003C8B04 /* Network */,
+				EBF50D902AD8EEF8003C8B04 /* Model */,
+				EBF50D8F2AD8EEE2003C8B04 /* JsonFile */,
+				EBF50D8E2AD8EEB8003C8B04 /* Helpers */,
 				EB4501282AD8E93A000722B0 /* HomeScreens */,
 				EB4501262AD8E781000722B0 /* AuthScreen */,
 				EB4501242AD8E5E2000722B0 /* InitialScreen */,
@@ -157,11 +161,6 @@
 				EB80D0DD2AD6BB8400C2C8C7 /* Assets.xcassets */,
 				EB80D0DF2AD6BB8400C2C8C7 /* LaunchScreen.storyboard */,
 				EB80D0E22AD6BB8400C2C8C7 /* Info.plist */,
-				EBA040512AD8639F00ED7312 /* FoodData.json */,
-				EBA0404D2AD8595B00ED7312 /* UIView+Extension.swift */,
-				EBA0404F2AD8621800ED7312 /* MenuDetails.swift */,
-				EBA040532AD8659500ED7312 /* Constant.swift */,
-				EBA040572AD86BA000ED7312 /* NetworkManager.swift */,
 			);
 			path = RewardzTest;
 			sourceTree = "<group>";
@@ -191,6 +190,39 @@
 				EBA040472AD82FEE00ED7312 /* ImageDetailsCollectionViewCell.xib */,
 			);
 			path = CollectionCellXib;
+			sourceTree = "<group>";
+		};
+		EBF50D8E2AD8EEB8003C8B04 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EBA040532AD8659500ED7312 /* Constant.swift */,
+				EBA0404D2AD8595B00ED7312 /* UIView+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EBF50D8F2AD8EEE2003C8B04 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				EBA040512AD8639F00ED7312 /* FoodData.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+		EBF50D902AD8EEF8003C8B04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0404F2AD8621800ED7312 /* MenuDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBF50D912AD8EF0D003C8B04 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EBA040572AD86BA000ED7312 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
